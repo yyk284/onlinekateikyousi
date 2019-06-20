@@ -28,25 +28,45 @@ body{
 }
 .main{
     height: 600px;
-
+}
+.main-charm h{
+    padding-left: 20px;
+}
+.main-charm h2{
+    font-size: 20px;
 }
 .main h3{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main h4{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main-charm h3{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main-charm h4{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main-charm h5{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main-charm h6{
-    font-size: 30px;
+    font-size: 20px;
+}
+.main-charm h7{
+    font-size: 20px;
+}
+.main-charm h8{
+    font-size: 20px;
+}
+.main-charm h9{
+    font-size: 20px;
+}
+.main-charm h10{
+    font-size: 20px;
+}
+.main-charm h11{
+    font-size: 20px;
 }
 .footer{
     background-color: rgb(248, 172, 185);
