@@ -5,7 +5,7 @@
 
     <title>オンスタ</title>
 
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 
 </head>
 
@@ -17,11 +17,11 @@
     </div>
     <div class="header-list">
         <ul>
-            <a href="index.html">ホーム</a>
-            <a href="about.html">オンライン家庭教師とは？？</a>
-            <a href="charm.html">オンスタの魅力</a>
-            <a href="list.html">講師一覧</a>
-            <a href="price.html">お申込み・お問い合わせはこちら</a>
+            <a href="/">ホーム</a>
+            <a href="/about">オンライン家庭教師とは？？</a>
+            <a href="/charm">オンスタの魅力</a>
+            <a href="/list">講師一覧</a>
+            <a href="/price">お申込み・お問い合わせはこちら</a>
         </ul>
     </div>
 
