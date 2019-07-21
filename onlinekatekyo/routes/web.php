@@ -12,21 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/price', function () {
-    return view('price');
-});
-
-Route::get('/charm', function () {
-    return view('charm');
-});
-
-Route::get('/list', function () {
-    return view('list');
+    return view('welcome');
 });
