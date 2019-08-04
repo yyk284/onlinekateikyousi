@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'InfomationController@index')->name('infomation.top');
+Route::get('/about', 'InfomationController@about')->name('infomation.about');
+Route::get('/charmpoint', 'InfomationController@charmpoint')->name('infomation.charmpoint');
+Route::get('/list', 'InfomationController@list')->name('infomation.list');
+Route::get('/price', 'InfomationController@price')->name('infomation.price');
+
