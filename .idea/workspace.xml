@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83095758-270f-46e3-ba94-9ce19fe8d9d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docker/web/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/web/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinekatekyo/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinekatekyo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinekatekyo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinekatekyo/.styleci.yml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/onlinekatekyo/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/composer" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/onlinekatekyo/vendor/myclabs/deep-copy" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="715" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="onlinekateikyousi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinekateikyousi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinekateikyousi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinekateikyousi" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83095758-270f-46e3-ba94-9ce19fe8d9d8" name="Default Changelist" comment="" />
+      <created>1565781464485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565781464485</updated>
+      <workItem from="1565781467786" duration="715000" />
+      <workItem from="1565839222377" duration="295000" />
+      <workItem from="1565840442662" duration="81000" />
+      <workItem from="1565948912582" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1101000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12732475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

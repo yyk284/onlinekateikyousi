@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/onlinekatekyo/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/onlinekatekyo/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/beyondcode/laravel-dump-server" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/onlinekatekyo/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
