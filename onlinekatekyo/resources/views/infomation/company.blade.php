@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slide.css">
-<link rel="alternate stylesheet" href="css/change.css" title="change">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/slide.css">
+<link rel="alternate stylesheet" href="/css/change.css" title="change">
 <script src="js/openclose.js"></script>
 <script src="js/fixmenu_pagetop.js"></script>
 <script src="js/styleswitcher.js"></script>
@@ -24,17 +24,17 @@
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="サンプルホーム"></a></h1>
+<h1 id="logo"><a href="/"><img src="images/logo.png" alt="サンプルホーム"></a></h1>
 <ul id="headermenu">
-<li><a href="contact.html" class="btn1">資料請求・お問い合わせ</a></li>
-<li><a href="contact2.html" class="btn1">見学のお申し込み</a></li>
+<li><a href="/contact/" class="btn1">資料請求・お問い合わせ</a></li>
+<li><a href="/contact2/" class="btn1">見学のお申し込み</a></li>
 </ul>
 <!--文字サイズ変更ボタン-->
 <div id="fsize">
 <p>文字サイズ</p>
 <ul>
-<li id="small"><a href="#" onclick="setActiveStyleSheet('default'); return false;" title="文字サイズ「小」"></a></li>
-<li id="large"><a href="#" onclick="setActiveStyleSheet('change'); return false;" title="文字サイズ「大」"></a></li>
+<li id="small"><a href="/#" onclick="setActiveStyleSheet('default'); return false;" title="文字サイズ「小」"></a></li>
+<li id="large"><a href="/#" onclick="setActiveStyleSheet('change'); return false;" title="文字サイズ「大」"></a></li>
 </ul>
 </div>
 </header>
@@ -46,24 +46,24 @@
 <!--PC用（801px以上端末）メニュー-->
 <nav id="menubar">
 <ul>
-<li><a href="index.html">ホーム<span>Home</span></a></li>
-<li><a href="info.html">施設のご案内<span>Information</span></a></li>
-<li><a href="service.html">サービスのご案内<span>Service</span></a></li>
-<li><a href="charge.html">ご利用料金<span>Charge</span></a></li>
-<li><a href="access.html">アクセス<span>Access</span></a></li>
-<li><a href="faq.html">よく頂く質問<span>Faq</span></a></li>
+<li><a href="/">ホーム<span>Home</span></a></li>
+<li><a href="/info/">施設のご案内<span>Information</span></a></li>
+<li><a href="/service/">サービスのご案内<span>Service</span></a></li>
+<li><a href="/charge/">ご利用料金<span>Charge</span></a></li>
+<li><a href="/access/">アクセス<span>Access</span></a></li>
+<li><a href="/faq/">よく頂く質問<span>Faq</span></a></li>
 </ul>
 </nav>
 
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="index.html">ホーム<span>Home</span></a></li>
-<li><a href="info.html">施設のご案内<span>Information</span></a></li>
-<li><a href="service.html">サービスのご案内<span>Service</span></a></li>
-<li><a href="charge.html">ご利用料金<span>Charge</span></a></li>
-<li><a href="access.html">アクセス<span>Access</span></a></li>
-<li><a href="faq.html">よく頂く質問<span>Faq</span></a></li>
+<li><a href="/">ホーム<span>Home</span></a></li>
+<li><a href="/info/">施設のご案内<span>Information</span></a></li>
+<li><a href="/service/">サービスのご案内<span>Service</span></a></li>
+<li><a href="/charge/">ご利用料金<span>Charge</span></a></li>
+<li><a href="/access/">アクセス<span>Access</span></a></li>
+<li><a href="/faq/">よく頂く質問<span>Faq</span></a></li>
 </ul>
 </nav>
 
@@ -128,7 +128,7 @@ media=&quot; (～)&quot;の「～」部分でcssを切り替えるディスプ�
 
 <h3>画像ベースは</h3>
 <p>「base」フォルダに入っていますのでご自由にご活用下さい。<br>
-写真の元素材を当社運営の<a href="http://photo-chips.com/">PHOTO-CHIPS</a>や<a href="http://decoruto.com/">DECORUTO</a>で配布している場合もございます。</p>
+写真の元素材を当社運営の<a href="/http://photo-chips.com/">PHOTO-CHIPS</a>や<a href="/http://decoruto.com/">DECORUTO</a>で配布している場合もございます。</p>
 
 <h3>サンプル公開中のトップページのスライドショーの「施設の室内写真」はダウンロードファイルには梱包されていません</h3>
 <p>配布元である「PIXTA」さんの一般利用規約範囲内で利用している為、ダウンロードファイルには梱包されておりません。PSD特典にも含まれませんので同じ写真が必要な際はPIXTAさんで直接お買い求め下さい。<br>ダウンロードファイルには代替画像が入っています。そちらは文字なしの土台がbaseフォルダに入っていますのでご利用頂いても構いません。</p>
@@ -141,7 +141,7 @@ media=&quot; (～)&quot;の「～」部分でcssを切り替えるディスプ�
 
 <h3>初心者向けマニュアル公開中</h3>
 <p>画像加工やテンプレートの編集方法、無料サーバーを使ってサイトを公開するなど動画をまじえてわかりやすく解説しています。<br>
-<a href="https://template-party.com/tips/index_beginner.html" target="_blank">初心者向けマニュアルはこちら。</a></p>
+<a href="/https://template-party.com/tips/index_beginner/" target="_blank">初心者向けマニュアルはこちら。</a></p>
 
 <h3><span style="color:red">注意</span>：当テンプレートにはメインメニューが「２箇所」入っています</h3>
 <p>パソコンなどの大きな端末「menubar（幅801px以上）」向けと、スマホなどの小さな端末「menubar-s（幅800px以下）」向けがそれぞれ入っています。大きな端末向けは編集ソフトで見れると思いますが、小さな端末向けは見えないと思いますのでhtml側で編集して下さい。</p>
@@ -149,7 +149,7 @@ media=&quot; (～)&quot;の「～」部分でcssを切り替えるディスプ�
 <h3><span style="color:red">注意</span>：注意：ヘッダーの文字サイズ調整機能を使う場合の設定</h3>
 <p><strong class="color1">※テンプレートのダウンロードファイルだけでは文字サイズの変更ができません。</strong><br>
 海外で公開されている「styleswitcher.js」というファイルをテンプレートのjsフォルダにもってくる必要があります。<br>
-<a href="http://template-party.com/file/styleswitcher.html" target="_blank">「styleswitcher.js」を配布元サイトよりDLする方法。</a></p>
+<a href="/http://template-party.com/file/styleswitcher/" target="_blank">「styleswitcher.js」を配布元サイトよりDLする方法。</a></p>
 <p><strong class="color1">■文字サイズボタンはIE9以降しか出ません</strong><br>
 IE8以下では「文字サイズ」のタイトルのみが出て、大小のボタンは出ません。</p>
 <p><strong class="color1">■文字サイズ変更を使わない場合。</strong><br>
@@ -235,7 +235,7 @@ index.htmlのhtmlの上の方にある、<br>
 画像がすべて表示されるので、使わない画像を削除すればOKです。画像を囲っているasideタグなどはレイアウト設定が入っているので削除しないよう注意して下さい。</p>
 <p><strong class="color1">速度や枚数などの調整</strong><br>
 cssフォルダのslide.cssで行って下さい。解説も入っています。<br>
-<a href="http://template-party.com/tips/tips20160408_css_slide1.html">スライドショーに関する詳しい使い方はこちら。</a></p>
+<a href="/http://template-party.com/tips/tips20160408_css_slide1/">スライドショーに関する詳しい使い方はこちら。</a></p>
 
 <h3>１カラム、２カラムどちらでも使えます</h3>
 <p>１カラムのhtmlのcontents内に、<br>
@@ -268,8 +268,8 @@ offsettop = 350;<br>
 <nav class="box1">
 <h2>Menu</h2>
 <ul class="submenu">
-<li><a href="company.html">会社概要</a></li>
-<li><a href="recruit.html">介護スタッフ募集中</a></li>
+<li><a href="/company/">会社概要</a></li>
+<li><a href="/recruit/">介護スタッフ募集中</a></li>
 </ul>
 </nav>
 
@@ -288,9 +288,9 @@ TEL：0120-0000-0000<br>
 <section>
 <h2>boxの外も使えます</h2>
 <ul class="submenu">
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
 </ul>
 </section>
 
@@ -307,50 +307,50 @@ TEL：0120-0000-0000<br>
 
 <div id="footermenu">
 <ul>
-<li><a href="index.html">ホーム</a></li>
-<li><a href="company.html">会社概要</a></li>
-<li><a href="info.html">施設のご案内</a></li>
-<li><a href="service.html">サービスのご案内</a></li>
-<li><a href="charge.html">ご利用料金</a></li>
-<li><a href="access.html">アクセス</a></li>
-<li><a href="faq.html">よく頂く質問</a></li>
-<li><a href="recruit.html">採用情報</a></li>
+<li><a href="/">ホーム</a></li>
+<li><a href="/company/">会社概要</a></li>
+<li><a href="/info/">施設のご案内</a></li>
+<li><a href="/service/">サービスのご案内</a></li>
+<li><a href="/charge/">ご利用料金</a></li>
+<li><a href="/access/">アクセス</a></li>
+<li><a href="/faq/">よく頂く質問</a></li>
+<li><a href="/recruit/">採用情報</a></li>
 </ul>
 <ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
+<li class="title"><a href="/#">メニューのタイトル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
 </ul>
 <ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
+<li class="title"><a href="/#">メニューのタイトル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
 </ul>
 <ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
+<li class="title"><a href="/#">メニューのタイトル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
+<li><a href="/#">メニューサンプル</a></li>
 </ul>
 </div>
 <!--/footermenu-->
 
 <div id="copyright">
-<small>Copyright&copy; <a href="index.html">サンプルホーム</a> All Rights Reserved.</small>
-<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+<small>Copyright&copy; <a href="/">サンプルホーム</a> All Rights Reserved.</small>
+<span class="pr"><a href="/http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </div>
 
 </footer>
 
-<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+<p class="nav-fix-pos-pagetop"><a href="/#">↑</a></p>
 
 <!--メニュー開閉ボタン-->
 <div id="menubar_hdr" class="close"></div>

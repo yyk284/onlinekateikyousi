@@ -10,12 +10,12 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/slide.css">
 <link rel="alternate stylesheet" href="css/change.css" title="change">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slide.css">
+<link rel="alternate stylesheet" href="css/change.css" title="change">
 <script src="js/openclose.js"></script>
 <script src="js/fixmenu_pagetop.js"></script>
 <script src="js/styleswitcher.js"></script>
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
 
@@ -24,10 +24,10 @@
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="サンプルホーム"></a></h1>
+<h1 id="logo"><a href="index"><img src="images/logo.png" alt="サンプルホーム"></a></h1>
 <ul id="headermenu">
-<li><a href="contact.html" class="btn1">資料請求・お問い合わせ</a></li>
-<li><a href="contact2.html" class="btn1">見学のお申し込み</a></li>
+<li><a href="contact" class="btn1">資料請求・お問い合わせ</a></li>
+<li><a href="contact2" class="btn1">見学のお申し込み</a></li>
 </ul>
 <!--文字サイズ変更ボタン-->
 <div id="fsize">
@@ -46,24 +46,24 @@
 <!--PC用（801px以上端末）メニュー-->
 <nav id="menubar">
 <ul>
-<li><a href="index.html">ホーム<span>Home</span></a></li>
-<li><a href="info.html">施設のご案内<span>Information</span></a></li>
-<li><a href="service.html">サービスのご案内<span>Service</span></a></li>
-<li><a href="charge.html">ご利用料金<span>Charge</span></a></li>
-<li class="current"><a href="access.html">アクセス<span>Access</span></a></li>
-<li><a href="faq.html">よく頂く質問<span>Faq</span></a></li>
+<li><a href="/">ホーム<span>Home</span></a></li>
+<li><a href="/info">施設のご案内<span>Information</span></a></li>
+<li><a href="/service">サービスのご案内<span>Service</span></a></li>
+<li><a href="/charge">ご利用料金<span>Charge</span></a></li>
+<li class="/current"><a href="access">アクセス<span>Access</span></a></li>
+<li><a href="faq">よく頂く質問<span>Faq</span></a></li>
 </ul>
 </nav>
 
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="index.html">ホーム<span>Home</span></a></li>
-<li><a href="info.html">施設のご案内<span>Information</span></a></li>
-<li><a href="service.html">サービスのご案内<span>Service</span></a></li>
-<li><a href="charge.html">ご利用料金<span>Charge</span></a></li>
-<li class="current"><a href="access.html">アクセス<span>Access</span></a></li>
-<li><a href="faq.html">よく頂く質問<span>Faq</span></a></li>
+<li><a href="/index">ホーム<span>Home</span></a></li>
+<li><a href="/info">施設のご案内<span>Information</span></a></li>
+<li><a href="/service">サービスのご案内<span>Service</span></a></li>
+<li><a href="/charge">ご利用料金<span>Charge</span></a></li>
+<li class="current"><a href="/access">アクセス<span>Access</span></a></li>
+<li><a href="/faq">よく頂く質問<span>Faq</span></a></li>
 </ul>
 </nav>
 
@@ -81,7 +81,7 @@
 </tr>
 <tr>
 <th>地図</th>
-<td><a href="http://template-party.com/file/pickup_googlemap.html">Google Mapを使いたい人はこちらの解説をご覧下さい。</a><br>
+<td><a href="http://template-party.com/file/pickup_googlemap/">Google Mapを使いたい人はこちらの解説をご覧下さい。</a><br>
 <img src="images/dummy_map_main.jpg" alt=""></td>
 </tr>
 <tr>
@@ -126,14 +126,14 @@
 
 <div id="footermenu">
 <ul>
-<li><a href="index.html">ホーム</a></li>
-<li><a href="company.html">会社概要</a></li>
-<li><a href="info.html">施設のご案内</a></li>
-<li><a href="service.html">サービスのご案内</a></li>
-<li><a href="charge.html">ご利用料金</a></li>
-<li><a href="access.html">アクセス</a></li>
-<li><a href="faq.html">よく頂く質問</a></li>
-<li><a href="recruit.html">採用情報</a></li>
+<li><a href="/index">ホーム</a></li>
+<li><a href="/company">会社概要</a></li>
+<li><a href="/info">施設のご案内</a></li>
+<li><a href="/service">サービスのご案内</a></li>
+<li><a href="/charge">ご利用料金</a></li>
+<li><a href="/access">アクセス</a></li>
+<li><a href="/faq">よく頂く質問</a></li>
+<li><a href="/recruit">採用情報</a></li>
 </ul>
 <ul>
 <li class="title"><a href="#">メニューのタイトル</a></li>
@@ -163,7 +163,7 @@
 <!--/footermenu-->
 
 <div id="copyright">
-<small>Copyright&copy; <a href="index.html">サンプルホーム</a> All Rights Reserved.</small>
+<small>Copyright&copy; <a href="/">サンプルホーム</a> All Rights Reserved.</small>
 <span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </div>
 

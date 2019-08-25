@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'InfomationController@index')->name('infomation.top');
+Route::get('/', 'InfomationController@index')->name('infomation.index');
 Route::get('/about', 'InfomationController@about')->name('infomation.about');
 Route::get('/company', 'InfomationController@company')->name('infomation.company');
 Route::get('/finish', 'InfomationController@charmpoint')->name('infomation.finish');
