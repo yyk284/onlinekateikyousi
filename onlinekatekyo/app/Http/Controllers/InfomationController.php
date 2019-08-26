@@ -47,8 +47,4 @@ class InfomationController extends Controller
         return view('infomation.contact');
     }
 
-    public function service()
-    {
-        return view('infomation.service');
-    }
 }

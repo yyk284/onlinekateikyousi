@@ -45,7 +45,7 @@ a:hover {
 /*ヘッダーブロック*/
 header {
 	position: relative;z-index: 1;
-	height: 140px;	/*ヘッダーの高さ*/
+	height: 100px;	/*ヘッダーの高さ*/
 	background: #fff;	/*背景色*/
 }
 /*ロゴ画像*/
@@ -53,7 +53,7 @@ header #logo img {
 	width: 300px;	/*画像幅*/
 	position: absolute;
 	left: 3%;		/*ヘッダーに対して左から3%の場所に配置*/
-	top: 38px;	/*ヘッダーに対して上から38pxの場所に配置*/
+	top: 20px;	/*ヘッダーに対して上から38pxの場所に配置*/
 }
 
 /*ヘッダー内メニュー（「資料請求・お問い合わせ」と「見学のお申し込み」ボタン）

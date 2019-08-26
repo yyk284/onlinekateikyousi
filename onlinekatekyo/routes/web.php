@@ -25,7 +25,7 @@ Route::get('/contact', 'InfomationController@contact')->name('infomation.contact
 Route::get('/recruit', 'InfomationController@recruit')->name('infomation.recruit');
 Route::get('/faq', 'InfomationController@faq')->name('infomation.faq');
 Route::get('/info', 'InfomationController@info')->name('infomation.info');
-Route::get('/service', 'InfomationController@service')->name('infomation.service');
+Route::get('/tutors', 'Tutor@index')->name('tutor.index');
 
 
 
