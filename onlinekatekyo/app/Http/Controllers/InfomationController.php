@@ -10,20 +10,45 @@ class InfomationController extends Controller
     {
         return view('infomation.index');
     }
-    public function about()
+    public function finish()
     {
-        return view('infomation.about');
+        return view('infomation.finish');
     }
-    public function charmpoint()
+    public function company()
     {
-        return view('infomation.charmpoint');
+        return view('infomation.company');
     }
-    public function list()
+    public function info()
     {
-        return view('infomation.list');
+        return view('infomation.info');
     }
-    public function price()
+    public function access()
     {
-        return view('infomation.price');
+        return view('infomation.access');
+    }
+    public function form()
+    {
+	return view('infomation.form');
+    }
+    public function recruit()
+    {
+    	return view('recruit.form');
+    }
+     public function charge()
+    {
+    	return view('infomation.charge');
+    }
+     public function faq()
+    {
+    	return view('infomation.faq');
+    }
+     public function contact()
+    {
+        return view('infomation.contact');
+    }
+
+    public function service()
+    {
+        return view('infomation.service');
     }
 }
