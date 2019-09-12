@@ -4,28 +4,28 @@
 <div id="contents">
 
 <article>
-    <h2>講師紹介</h2>
+<h2>講師紹介</h2>
 
+@foreach ($tutors as $tutor)
     <!-- 切り替えボタンの設定 -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-     ココを押すと表示
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tutorModal{{$tutor->id}}">
+     {{$tutor->name}}
     </button>
 
     <!-- モーダルの設定 -->
-    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="tutorModal{{$tutor->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalScrollableTitle">Aさん</h5>
+            <h5 class="modal-title" id="exampleModalScrollableTitle">
+                {{$tutor->name}}
+            </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <h2>aaa</h2>
-            <p>fugafuga</p>
-            <p>fugafuga</p>
-            <p>fugafuga</p>
+            {{$tutor->body}}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
@@ -34,6 +34,7 @@
         </div>
       </div>
     </div>
+@endforeach
 
 </article>
 
