@@ -929,3 +929,19 @@ ul.disc {padding: 0em 0px 20px 18px;}
 }
 
 
+
+/* 講師ページのデザイン */
+#contents .tutors p {
+  padding: 0;
+}
+
+#contents .tutors a {
+  cursor: pointer;
+}
+
+#contents .card-img-top {
+  margin: 0 auto;
+  width: auto;
+  height: 200px;
+}
+

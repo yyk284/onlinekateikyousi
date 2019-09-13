@@ -6,11 +6,27 @@
 <article>
 <h2>講師紹介</h2>
 
+<div class="tutors container">
+<div class="row">
 @foreach ($tutors as $tutor)
     <!-- 切り替えボタンの設定 -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tutorModal{{$tutor->id}}">
-     {{$tutor->name}}
-    </button>
+
+    <div class="col-lg-3">
+        <a data-toggle="modal" data-target="#tutorModal{{$tutor->id}}">
+            <div class="card">
+                <img class="card-img-top" src="https://4.bp.blogspot.com/-kFhG7dQTU-0/XNE_T9wHlsI/AAAAAAABSwk/y5-D42OvEOUFU7CavYAX8ta5REfiMDgAACLcBGAs/s800/pose_bin_futa_akanai_woman.png">
+                <div class="card-body">
+                    <h4 class="card-title">{{$tutor->name}}</h4>
+                    <div class="card-text">
+                        <p>{{$tutor->ac}}</p>
+                        <p>{{$tutor->time}}</p>
+                        <p>{{$tutor->fee}}円/コマ</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
 
     <!-- モーダルの設定 -->
     <div class="modal fade" id="tutorModal{{$tutor->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
@@ -25,24 +41,23 @@
             </button>
           </div>
           <div class="modal-body">
-            {{$tutor->body}}
+            {{$tutor->other}}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
-            <button type="button" class="btn btn-primary">変更を保存</button>
           </div>
         </div>
       </div>
     </div>
 @endforeach
+</div>
+</div>
 
 </article>
 
 
 </div>
 <!--/#contents-->
-
-<script src="js/tutor_modal.js" type="text/javascript"></script>
 
 @endsection
 
