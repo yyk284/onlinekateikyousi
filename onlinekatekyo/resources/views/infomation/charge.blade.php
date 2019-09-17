@@ -1,209 +1,84 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>老人ホーム・介護施設・デイサービス向け 無料ホームページテンプレート tp_home4</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
-<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slide.css">
-<link rel="alternate stylesheet" href="css/change.css" title="change">
-<script src="js/openclose.js"></script>
-<script src="js/fixmenu_pagetop.js"></script>
-<script src="js/styleswitcher.js"></script>
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
+@extends('layout.app')
 
-<body>
-
-<div id="container">
-
-<header>
-<h1 id="logo"><a href="/"><img src="images/logo.png" alt="サンプルホーム"></a></h1>
-<ul id="headermenu">
-<li><a href="/contact/" class="btn1">資料請求・お問い合わせ</a></li>
-<li><a href="/contact2/" class="btn1">見学のお申し込み</a></li>
-</ul>
-<!--文字サイズ変更ボタン-->
-<div id="fsize">
-<p>文字サイズ</p>
-<ul>
-<li id="small"><a href="#" onclick="setActiveStyleSheet('default'); return false;" title="文字サイズ「小」"></a></li>
-<li id="large"><a href="#" onclick="setActiveStyleSheet('change'); return false;" title="文字サイズ「大」"></a></li>
-</ul>
-</div>
-</header>
-
-<aside id="subimg">
-<img src="images/subimg.jpg" alt="">
-</aside>
-
-<!--PC用（801px以上端末）メニュー-->
-<nav id="menubar">
-<ul>
-<li><a href="/">ホーム<span>Home</span></a></li>
-<li><a href="/info/">施設のご案内<span>Information</span></a></li>
-<li><a href="/service/">サービスのご案内<span>Service</span></a></li>
-<li class="current"><a href="/charge/">ご利用料金<span>Charge</span></a></li>
-<li><a href="/access/">アクセス<span>Access</span></a></li>
-<li><a href="/faq/">よく頂く質問<span>Faq</span></a></li>
-</ul>
-</nav>
-
-<!--小さな端末用（800px以下端末）メニュー-->
-<nav id="menubar-s">
-<ul>
-<li><a href="/">ホーム<span>Home</span></a></li>
-<li><a href="/info/">施設のご案内<span>Information</span></a></li>
-<li><a href="/service/">サービスのご案内<span>Service</span></a></li>
-<li class="current"><a href="/charge/">ご利用料金<span>Charge</span></a></li>
-<li><a href="/access/">アクセス<span>Access</span></a></li>
-<li><a href="/faq/">よく頂く質問<span>Faq</span></a></li>
-</ul>
-</nav>
+@section('body')
 
 <div id="contents">
 
 <section>
 
-<h2>ご利用料金のご案内<span>Charge</span></h2>
+<h2>料金システム<span>Charge</span></h2>
 
 <table class="ta2">
-<caption>プラン：A</caption>
+<caption>月額指導料金</caption>
 <tr>
-<th>お部屋</th>
-<th>入居一時金</th>
-<th>家賃</th>
-<th>管理費</th>
-<th>食事代</th>
+<th>学年</th>
+<th>最低料金（一コマ当たり）</th>
+<th>講師変更料金</th>
+<th>システム料</th>
+<th>入会金</th>
 </tr>
 <tr>
-<td>１〜３階</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
+<td>小学生</td>
+<td>￥1800</td>
+<td>￥0</td>
+<td>￥0</td>
+<td>￥10,000</td>
 </tr>
 <tr>
-<td>４〜６階</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
+<td>中学生</td>
+<td>￥2000</td>
+<td>￥0</td>
+<td>￥0</td>
+<td>￥15,000</td>
 </tr>
 <tr>
-<td>最上階</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
-<td>￥000,000</td>
+<td>高校生</td>
+<td>￥2500</td>
+<td>￥0</td>
+<td>￥0</td>
+<td>￥20,000</td>
 </tr>
 <tr>
 <td colspan="5" class="l">
 <ul class="disc">
+<li>＊期間限定！！今だけスタートアップキャンペーンとして入会金無料！！</li>
+<li>月額指導料は（１コマ料金×当月指導コマ数＋消費税）となります。</li>
+<li>講師レーティングによって月謝は変動します。レーティングは毎月更新ですが、月謝は１年ごとに更新されます。（例えば１１月に指導開始し、翌４月に講師のレートが上がっても月謝は翌１１月までは変わりません。１２月からは１１月時点での講師レートによる月謝になります。）</li>
+<li>レートは学歴、指導経験、指導実績、生徒からの評価の４項目によって決まります。</li>
+<li>各講師の現在のレート及び指導料金は講師一覧に記載されていますのでまずはそちらをご覧ください。→<a href="access.blade.php">講師一覧</a></li>
 <li>リストマークを使う場合は&lt;ul class=&quot;disc&quot;&gt;と指定して下さい。</li>
-<li>サンプルテキスト。サンプルテキスト。サンプルテキスト。</li>
-<li>サンプルテキスト。サンプルテキスト。サンプルテキスト。</li>
-<li>サンプルテキスト。サンプルテキスト。サンプルテキスト。</li>
 </ul>
 </td>
 </tr>
 </table>
 
 <table class="ta1">
-<caption>プラン：B</caption>
+<caption>その他の情報</caption>
 <tr>
-<th>見出し</th>
-<td>ここに説明を入れます。</td>
+<th>オンスタは完全従量制！</th>
+<td>オンスタの月謝は定額制ではありません！指導した時間分だけしか料金は発生しませんので急なお休みの時にも安心です。</td>
 </tr>
 <tr>
-<th>見出し</th>
-<td>ここに説明を入れます。</td>
+<th>スケジュールも自由に組める！</th>
+<td>オンスタでは曜日変更、指導時間変更も自由です！自分の予定に合わせてスケジュールを組めます！長期のお休みもオーケーです！</td>
 </tr>
 <tr>
-<th>見出し</th>
-<td>ここに説明を入れます。</td>
+<th>講師変更も無料！</th>
+<td>オンスタでは講師変更料金が一切かかりません！講師が自分に合わなければ即交代可能です。また、どうしても講師と予定が合わない時は代理講師を立てることもできます。</td>
 </tr>
 <tr>
-<th>見出し</th>
-<td>ここに説明を入れます。</td>
+<th>ペンタブレットについて</th>
+<td>オンスタではＷＥＢ会議室上のホワイトボードを使うのでペンタブレットがあると書きやすく便利です。ご家庭で用意してもらっても構いませんし、ない場合は別途レンタル、購入することもできます。</td>
 </tr>
 <tr>
-<th>見出し</th>
-<td>ここに説明を入れます。</td>
+<th>教材費もゼロ！</th>
+<td>オンスタでは教材を指定しておりませんので教材費などは一切かかりません。学校の宿題や塾の問題集、何を使っていただいても構いません。<BR>
+	「何をやればよいか分からない...」という方はオンスタにすべて任せてもらっても大丈夫です。その時は受験を知り尽くした講師陣が最適の教材をお勧めします。</td>
 </tr>
 </table>
 
 </section>
 
 </div>
-<!--/#contents-->
 
-</div>
-<!--/#container-->
-
-<footer>
-
-<div id="footermenu">
-<ul>
-<li><a href="/">ホーム</a></li>
-<li><a href="/company/">会社概要</a></li>
-<li><a href="/info/">施設のご案内</a></li>
-<li><a href="/service/">サービスのご案内</a></li>
-<li><a href="/charge/">ご利用料金</a></li>
-<li><a href="/access/">アクセス</a></li>
-<li><a href="/faq/">よく頂く質問</a></li>
-<li><a href="/recruit/">採用情報</a></li>
-</ul>
-<ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-</div>
-<!--/footermenu-->
-
-<div id="copyright">
-<small>Copyright&copy; <a href="index/">サンプルホーム</a> All Rights Reserved.</small>
-<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-</div>
-
-</footer>
-
-<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
-
-<!--メニュー開閉ボタン-->
-<div id="menubar_hdr" class="close"></div>
-<!--メニューの開閉処理条件設定　800px以下-->
-<script>
-if (OCwindowWidth() <= 800) {
-	open_close("menubar_hdr", "menubar-s");
-}
-</script>
-
-</body>
-</html>
+@endsection
