@@ -47,4 +47,9 @@ class InfomationController extends Controller
         return view('infomation.contact');
     }
 
+    public function charm()
+    {
+        return view('infomation.charm');
+    }
+
 }

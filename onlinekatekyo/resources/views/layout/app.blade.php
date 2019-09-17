@@ -27,27 +27,27 @@
 
         <!--PC用（801px以上端末）メニュー-->
         <nav id="menubar">
-            <ul>
-                <li><a href="/">ホーム<span>Home</span></a></li>
-                <li><a href="/info/">施設のご案内<span>Information</span></a></li>
-                <li><a href="/tutors/">講師紹介<span>Tutor</span></a></li>
-                <li><a href="/charge/">ご利用料金<span>Charge</span></a></li>
-                <li><a href="/access/">アクセス<span>Access</span></a></li>
-                <li><a href="/faq/">よく頂く質問<span>Faq</span></a></li>
-            </ul>
-        </nav>
-
-        <!--小さな端末用（800px以下端末）メニュー-->
-        <nav id="menubar-s">
-            <ul>
-                <li><a href="/">ホーム<span>Home</span></a></li>
-                <li><a href="/info/">施設のご案内<span>Information</span></a></li>
-                <li><a href="/tutors/">講師紹介<span>Tutor</span></a></li>
-                <li><a href="/charge/">ご利用料金<span>Charge</span></a></li>
-                <li><a href="/access/">アクセス<span>Access</span></a></li>
-                <li><a href="/faq/">よく頂く質問<span>Faq</span></a></li>
-            </ul>
-        </nav>
+	<ul>
+	<li class="current"><a href="index.blade.php">ホーム<span>Home</span></a></li>
+	<li><a href="info.blade.php">オンライン家庭教師とは？？<span>About</span></a></li>
+	<li><a href="service.blade.php">オンスタの魅力<span>Charm</span></a></li>
+	<li><a href="charge.blade.php">料金システム<span>Charge</span></a></li>
+	<li><a href="access.blade.php">講師一覧<span>List</span></a></li>
+	<li><a href="faq.blade.php">お問い合わせ・お申込み<span>Faq</span></a></li>
+	</ul>
+	</nav>
+	
+	<!--小さな端末用（800px以下端末）メニュー-->
+	<nav id="menubar-s">
+	<ul>
+	<li class="current"><a href="index.blade.php">ホーム<span>Home</span></a></li>
+	<li><a href="info.blade.php">オンライン家庭教師とは？？<span>About</span></a></li>
+	<li><a href="service.blade.php">オンスタの魅力<span>Charm</span></a></li>
+	<li><a href="charge.blade.php">料金システム<span>Charge</span></a></li>
+	<li><a href="access.blade.php">講師一覧<span>List</span></a></li>
+	<li><a href="faq.blade.php">お問い合わせ・お申込み<span>Faq</span></a></li>
+	</ul>
+	</nav>
         <!--メニュー開閉ボタン-->
         <div id="menubar_hdr" class="close"></div>
 
@@ -59,18 +59,17 @@
     </body>
 
     <footer>
-        <div id="footermenu">
-        <ul>
-        <li><a href="/">ホーム</a></li>
-        <li><a href="/company/">会社概要</a></li>
-        <li><a href="/info/">施設のご案内</a></li>
-        <li><a href="/tutors/">講師紹介</a></li>
-        <li><a href="/charge/">ご利用料金</a></li>
-        <li><a href="/access/">アクセス</a></li>
-        <li><a href="/faq/">よく頂く質問</a></li>
-        <li><a href="/recruit/">採用情報</a></li>
-        </ul>
-        </div>
+    <div id="footermenu">
+	<ul>
+		<li class="current"><a href="index.blade.php">ホーム<span></span></a></li>
+		<li><a href="info.blade.php">オンライン家庭教師とは？？<span></span></a></li>
+		<li><a href="service.blade.php">オンスタの魅力<span></span></a></li>
+		<li><a href="charge.blade.php">料金システム<span></span></a></li>
+		<li><a href="access.blade.php">講師一覧<span></span></a></li>
+		<li><a href="faq.blade.php">お問い合わせ・お申込み<span></span></a></li>
+	</ul>
+	
+	</div>
         <!--/footermenu-->
 
         <div id="copyright">
