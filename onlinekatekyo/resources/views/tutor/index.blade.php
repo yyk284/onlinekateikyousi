@@ -14,7 +14,7 @@
     <div class="col-lg-3">
         <a data-toggle="modal" data-target="#tutorModal{{$tutor->id}}">
             <div class="card">
-                <img class="card-img-top" src="https://4.bp.blogspot.com/-kFhG7dQTU-0/XNE_T9wHlsI/AAAAAAABSwk/y5-D42OvEOUFU7CavYAX8ta5REfiMDgAACLcBGAs/s800/pose_bin_futa_akanai_woman.png">
+                <img class="card-img-top" src="http://drive.google.com/uc?export=view&id=1jlgWj3jC4g3klItWHKVTDlpbeOcSzyEr">
                 <div class="card-body">
                     <h4 class="card-title">{{$tutor->name}}</h4>
                     <div class="card-text">
