@@ -12,4 +12,29 @@ class TutorController extends Controller
         $tutors = Tutor::all();
         return view('tutor.index')->with('tutors', $tutors);
     }
+
+    public function create()
+    {
+        
+    }
+
+    public function store()
+    {
+        
+    }
+
+    public function edit()
+    {
+        
+    }
+
+    public function update()
+    {
+        
+    }
+
+    public function destroy()
+    {
+        
+    }
 }
