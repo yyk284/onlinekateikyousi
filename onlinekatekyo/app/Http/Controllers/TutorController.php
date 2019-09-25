@@ -19,6 +19,10 @@ class TutorController extends Controller
 
     public function create()
     {
+        if (!session('admin_auth', false)) {
+            return redirect('/');
+        }
+
         return view('tutor.create')->with('template',
             "## 大学\n"
             ."hoge大学\n\n"
@@ -44,7 +48,16 @@ class TutorController extends Controller
 
     public function store(Request $request)
     {
-        print $request->name;
+        $tutor = new Tutor;
+        $tutor->name = $request->name;
+        $tutor->rate = $request->rate;
+        $tutor->ac = $request->ac;
+        $tutor->time = $request->time;
+        $tutor->fee = $request->fee;
+        $tutor->other = $request->other;
+        $tutor->save();
+
+        return redirect('/tutors');
     }
 
     public function edit()

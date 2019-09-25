@@ -945,6 +945,10 @@ ul.disc {padding: 0em 0px 20px 18px;}
   height: 200px;
 }
 
+#contents .card {
+  margin-bottom: 20px;
+}
+
 
 /* 管理者ログイン */
 .admin_wrapper {
@@ -1074,3 +1078,4 @@ input[type="password"] {
 #modal-body p {
   margin-left: 10px;
 }
+

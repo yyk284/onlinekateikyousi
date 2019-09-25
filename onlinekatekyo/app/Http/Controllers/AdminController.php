@@ -21,9 +21,11 @@ class AdminController extends Controller
         $admin = Admin::query();
         $admin->where('name', $name);
         if ($admin->exists()) {
-            if ($password == decrypt($admin->first()->password))
+            if ($password == decrypt($admin->first()->password)) {
                 session()->put('admin_auth', true);
+            }
         }
+
         return redirect('/');
     }
 
