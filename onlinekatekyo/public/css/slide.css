@@ -37,7 +37,7 @@
 /*画像ブロック*/
 #mainimg, #subimg {
 	clear: both;
-	max-width: 1500px;	/*style.cssの「#container」と設定と合わせる*/
+	max-width: 2000px;	/*style.cssの「#container」と設定と合わせる*/
 	overflow: hidden;
 	margin: 0 auto;
 	position: absolute;

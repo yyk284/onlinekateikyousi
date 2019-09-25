@@ -25,10 +25,11 @@ Route::get('/contact', 'InfomationController@contact')->name('infomation.contact
 Route::get('/recruit', 'InfomationController@recruit')->name('infomation.recruit');
 Route::get('/faq', 'InfomationController@faq')->name('infomation.faq');
 Route::get('/info', 'InfomationController@info')->name('infomation.info');
+
 Route::get('/tutors', 'TutorController@index')->name('tutor.index');
 
 
-
-
-
+Route::get('/admin_sign_in', 'AdminController@sign_in')->name('admin.sign_in');
+Route::post('/admin_sign_in', 'AdminController@auth')->name('admin.auth');
+Route::get('/admin_sign_out', 'AdminController@sign_out')->name('admin.sign_out');
 
