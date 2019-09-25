@@ -18,6 +18,7 @@
                 <div class="card-body">
                     <h4 class="card-title">{{$tutor->name}}</h4>
                     <div class="card-text">
+                        <p>{{$tutor->rate}}</p>
                         <p>{{$tutor->ac}}</p>
                         <p>{{$tutor->time}}</p>
                         <p>{{$tutor->fee}}円/コマ</p>
@@ -40,8 +41,8 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            {{$tutor->other}}
+          <div id="modal-body" class="modal-body">
+            {!!$parser->parse($tutor->other)!!}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>

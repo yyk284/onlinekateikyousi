@@ -995,3 +995,82 @@ input[type="password"] {
   background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
 }
+
+
+.tutor_form {
+  width: 60%;
+  margin: auto auto;
+}
+
+
+/* tutorモーダル */
+#modal-body .text-cell {
+  font-size: 14px;
+}
+
+#modal-body h1 {
+  border-top: solid 3px #2a6d9e;
+  border-bottom: solid 2px #2a6d9e;
+  padding: 6px 10px;
+  color: #2a6d9e;
+  background-color: #f4f5fb;
+  line-height: 1.3em;
+  font-size: 25px;
+}
+
+#modal-body h2 {
+  color: #f4f5fb;
+	margin-bottom: 0px;
+	font-size: 100%;
+	text-align: left;
+  background-color: #2a6d9e;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+#modal-body h3 {
+  border-left: solid 7px #2a6d9e;
+  color: #000;
+	margin-bottom: 0px;
+	text-align: left;
+	font-size: 100%;
+	border: 0px solid #666;
+  padding: 5px 0 5px 8px;
+  line-height: 1.4em;
+  font-size: 18px;
+}
+
+#modal-body h4 {
+  color: #000;
+  font-size: 16px;
+}
+
+#modal-body hr {
+  background: none;
+  border-top: 2px dotted #bbb;
+}
+
+#modal-body a:link {
+  text-decoration: none;
+  color: #c1a23c;
+}
+
+#modal-body a:hover {
+  text-decoration: underline;
+}
+
+#modal-body ol, ul, li {
+  margin: 0 0 0 1rem;
+  padding: 0;
+  list-style: circle;
+}
+
+#modal-body strong {
+  color: #F00;
+}
+
+#modal-body p {
+  margin-left: 10px;
+}

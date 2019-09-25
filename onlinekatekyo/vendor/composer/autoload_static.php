@@ -28,6 +28,10 @@ class ComposerStaticInita12d2d1927d69c6c295e1d040172fa2e
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'c' => 
+        array (
+            'cebe\\markdown\\' => 14,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -143,6 +147,10 @@ class ComposerStaticInita12d2d1927d69c6c295e1d040172fa2e
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'cebe\\markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cebe/markdown',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -382,6 +390,7 @@ class ComposerStaticInita12d2d1927d69c6c295e1d040172fa2e
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -3941,6 +3950,30 @@ class ComposerStaticInita12d2d1927d69c6c295e1d040172fa2e
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'cebe\\markdown\\GithubMarkdown' => __DIR__ . '/..' . '/cebe/markdown/GithubMarkdown.php',
+        'cebe\\markdown\\Markdown' => __DIR__ . '/..' . '/cebe/markdown/Markdown.php',
+        'cebe\\markdown\\MarkdownExtra' => __DIR__ . '/..' . '/cebe/markdown/MarkdownExtra.php',
+        'cebe\\markdown\\Parser' => __DIR__ . '/..' . '/cebe/markdown/Parser.php',
+        'cebe\\markdown\\block\\CodeTrait' => __DIR__ . '/..' . '/cebe/markdown/block/CodeTrait.php',
+        'cebe\\markdown\\block\\FencedCodeTrait' => __DIR__ . '/..' . '/cebe/markdown/block/FencedCodeTrait.php',
+        'cebe\\markdown\\block\\HeadlineTrait' => __DIR__ . '/..' . '/cebe/markdown/block/HeadlineTrait.php',
+        'cebe\\markdown\\block\\HtmlTrait' => __DIR__ . '/..' . '/cebe/markdown/block/HtmlTrait.php',
+        'cebe\\markdown\\block\\ListTrait' => __DIR__ . '/..' . '/cebe/markdown/block/ListTrait.php',
+        'cebe\\markdown\\block\\QuoteTrait' => __DIR__ . '/..' . '/cebe/markdown/block/QuoteTrait.php',
+        'cebe\\markdown\\block\\RuleTrait' => __DIR__ . '/..' . '/cebe/markdown/block/RuleTrait.php',
+        'cebe\\markdown\\block\\TableTrait' => __DIR__ . '/..' . '/cebe/markdown/block/TableTrait.php',
+        'cebe\\markdown\\inline\\CodeTrait' => __DIR__ . '/..' . '/cebe/markdown/inline/CodeTrait.php',
+        'cebe\\markdown\\inline\\EmphStrongTrait' => __DIR__ . '/..' . '/cebe/markdown/inline/EmphStrongTrait.php',
+        'cebe\\markdown\\inline\\LinkTrait' => __DIR__ . '/..' . '/cebe/markdown/inline/LinkTrait.php',
+        'cebe\\markdown\\inline\\StrikeoutTrait' => __DIR__ . '/..' . '/cebe/markdown/inline/StrikeoutTrait.php',
+        'cebe\\markdown\\inline\\UrlLinkTrait' => __DIR__ . '/..' . '/cebe/markdown/inline/UrlLinkTrait.php',
+        'cebe\\markdown\\tests\\BaseMarkdownTest' => __DIR__ . '/..' . '/cebe/markdown/tests/BaseMarkdownTest.php',
+        'cebe\\markdown\\tests\\GithubMarkdownTest' => __DIR__ . '/..' . '/cebe/markdown/tests/GithubMarkdownTest.php',
+        'cebe\\markdown\\tests\\MarkdownExtraTest' => __DIR__ . '/..' . '/cebe/markdown/tests/MarkdownExtraTest.php',
+        'cebe\\markdown\\tests\\MarkdownOLStartNumTest' => __DIR__ . '/..' . '/cebe/markdown/tests/MarkdownOLStartNumTest.php',
+        'cebe\\markdown\\tests\\MarkdownTest' => __DIR__ . '/..' . '/cebe/markdown/tests/MarkdownTest.php',
+        'cebe\\markdown\\tests\\ParserTest' => __DIR__ . '/..' . '/cebe/markdown/tests/ParserTest.php',
+        'cebe\\markdown\\tests\\TestParser' => __DIR__ . '/..' . '/cebe/markdown/tests/ParserTest.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
