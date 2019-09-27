@@ -21,7 +21,7 @@
 
 <div class="list">
 	<h4 id="charm1">・圧倒的な講師数</h4>
-	<figure><img src="https://drive.google.com/file/d/1NzdH0EI1qto2uP2lZA576K8ZwUAjR-BI/view?usp=sharing" alt="サービス名" class="fr"></figure>
+	<figure><img src="http://drive.google.com/uc?export=view&id=1NzdH0EI1qto2uP2lZA576K8ZwUAjR-BI" alt="サービス名" class="fr"></figure>
 	<p>個別指導においては生徒と講師の相性がとても大切です。オンスタでは医学生を中心に多種多様な講師が１００人以上在籍しています。<br>
 		「明るくよく話してくれる先生がいい！」「自分と同じ趣味を持っていて話が合う先生がいい！」「目指している学校の卒業生に教わりたい！」「とにかく賢い先生に教わりたい！」などお子様、保護者の皆様の希望に合う講師が必ず見つかります。<br>
 		もし指導を受けてみて合わなければ即講師を交代することも可能です。もちろんその際料金はかかりません。<br>

@@ -6,7 +6,7 @@
 
 <section>
 
-<h2>お申込み<span>Faq</span></h2>
+<h2>お申込み<span>Subscription</span></h2>
 
 <dl class="faq">
 
