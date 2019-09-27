@@ -52,4 +52,9 @@ class InfomationController extends Controller
         return view('infomation.charm');
     }
 
+    public function step()
+    {
+        return view('infomation.step');
+    }
+
 }

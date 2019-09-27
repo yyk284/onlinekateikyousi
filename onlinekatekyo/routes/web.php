@@ -27,6 +27,7 @@ Route::get('/faq', 'InfomationController@faq')->name('infomation.faq');
 Route::get('/info', 'InfomationController@info')->name('infomation.info');
 Route::get('/tutors', 'TutorController@index')->name('tutor.index');
 Route::get('/charm', 'InfomationController@charm')->name('infomation.charm');
+Route::get('/step', 'InfomationController@step')->name('infomation.step');
 
 
 

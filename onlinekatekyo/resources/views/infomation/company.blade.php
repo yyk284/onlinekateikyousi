@@ -40,7 +40,7 @@
 </header>
 
 <aside id="subimg">
-<img src="images/subimg.jpg" alt="">
+<img src="https://drive.google.com/file/d/1NzdH0EI1qto2uP2lZA576K8ZwUAjR-BI/view?usp=sharing" alt="">
 </aside>
 
 <!--PC用（801px以上端末）メニュー-->

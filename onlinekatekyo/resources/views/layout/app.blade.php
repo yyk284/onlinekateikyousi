@@ -31,9 +31,10 @@
 	<li class="current"><a href="index.blade.php">ホーム<span>Home</span></a></li>
 	<li><a href="info.blade.php">オンライン家庭教師とは？？<span>About</span></a></li>
 	<li><a href="service.blade.php">オンスタの魅力<span>Charm</span></a></li>
+    <li><a href="step.blade.php">指導までの流れ<span>Step</span></a></li>
 	<li><a href="charge.blade.php">料金システム<span>Charge</span></a></li>
 	<li><a href="access.blade.php">講師一覧<span>List</span></a></li>
-	<li><a href="faq.blade.php">お問い合わせ・お申込み<span>Faq</span></a></li>
+	<li><a href="faq.blade.php">お申込み<span>Faq</span></a></li>
 	</ul>
 	</nav>
 	
@@ -43,6 +44,7 @@
 	<li class="current"><a href="index.blade.php">ホーム<span>Home</span></a></li>
 	<li><a href="info.blade.php">オンライン家庭教師とは？？<span>About</span></a></li>
 	<li><a href="service.blade.php">オンスタの魅力<span>Charm</span></a></li>
+    <li><a href="step.blade.php">指導までの流れ<span>Step</span></a></li>
 	<li><a href="charge.blade.php">料金システム<span>Charge</span></a></li>
 	<li><a href="access.blade.php">講師一覧<span>List</span></a></li>
 	<li><a href="faq.blade.php">お問い合わせ・お申込み<span>Faq</span></a></li>
@@ -64,6 +66,7 @@
 		<li class="current"><a href="index.blade.php">ホーム<span></span></a></li>
 		<li><a href="info.blade.php">オンライン家庭教師とは？？<span></span></a></li>
 		<li><a href="service.blade.php">オンスタの魅力<span></span></a></li>
+        <li><a href="step.blade.php">指導までの流れ<span></span></a></li>
 		<li><a href="charge.blade.php">料金システム<span></span></a></li>
 		<li><a href="access.blade.php">講師一覧<span></span></a></li>
 		<li><a href="faq.blade.php">お問い合わせ・お申込み<span></span></a></li>

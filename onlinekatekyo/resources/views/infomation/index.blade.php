@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>老人ホーム・介護施設・デイサービス向け 無料ホームページテンプレート tp_home4</title>
+<title>オンスタ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
-<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<meta name="description" content="家庭教師をオンラインで">
+<meta name="keywords" content="オンライン家庭教師,オンライン,家庭教師,オンスタ,沖縄">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/slide.css">
 <link rel="alternate stylesheet" href="css/change.css" title="change">
@@ -81,24 +81,24 @@
 
 <section class="ofh">
 
-<h2>サンプルホームのこだわり<span>Sample Home</span></h2>
+<h2>オンライン家庭教師のオンスタ<span>Home</span></h2>
 
 <div class="list2">
-<figure><a href="/service2"><img src="images/sample1.jpg" alt="サービス名"></a></figure>
-<h4>ここはh4見出し</h4>
-<p><a href="/service2" class="btn1">詳細をみる</a></p>
+<figure><a href="/charm"><img src="images/sample1.jpg" alt="サービス名"></a></figure>
+<h4>オンスタの魅力</h4>
+<p><a href="/charm" class="btn1">詳細をみる</a></p>
 </div>
 
 <div class="list2">
-<figure><a href="/service2"><img src="images/sample1.jpg" alt="サービス名"></a></figure>
-<h4>ここはh4見出し</h4>
-<p><a href="/service2" class="btn1">詳細をみる</a></p>
+<figure><a href="/tuors"><img src="images/sample1.jpg" alt="サービス名"></a></figure>
+<h4>講師一覧</h4>
+<p><a href="/tutors" class="btn1">詳細をみる</a></p>
 </div>
 
 <div class="list2">
-<figure><a href="/service2"><img src="images/sample1.jpg" alt="サービス名"></a></figure>
-<h4>ここはh4見出し</h4>
-<p><a href="/service2" class="btn1">詳細をみる</a></p>
+<figure><a href="/faq"><img src="images/sample1.jpg" alt="サービス名"></a></figure>
+<h4>お申込み</h4>
+<p><a href="/faq" class="btn1">詳細をみる</a></p>
 </div>
 
 </section>
@@ -106,122 +106,53 @@
 <section id="new">
 <h2>更新情報・お知らせ<span>What's New</span></h2>
 <dl>
-<dt>2018/10/05</dt>
-<dd>tp_home4公開。<span class="newicon">NEW</span></dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+<dt>2019/9/28</dt>
+<dd>オンスタ公式HP公開。<span class="newicon">NEW</span></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
 </dl>
 <p class="r">&raquo;&nbsp;<a href="#">過去ログ</a></p>
 </section>
 
-<section>
 
-<h2>テンプレートのご利用前に必ずお読み下さい</h2>
+   <footer>
+    <div id="footermenu">
+	<ul>
+		<li class="current"><a href="index.blade.php">ホーム<span></span></a></li>
+		<li><a href="info.blade.php">オンライン家庭教師とは？？<span></span></a></li>
+		<li><a href="service.blade.php">オンスタの魅力<span></span></a></li>
+        <li><a href="step.blade.php">指導までの流れ<span></span></a></li>
+		<li><a href="charge.blade.php">料金システム<span></span></a></li>
+		<li><a href="access.blade.php">講師一覧<span></span></a></li>
+		<li><a href="faq.blade.php">お問い合わせ・お申込み<span></span></a></li>
+	</ul>
+	
+	</div>
+        <!--/footermenu-->
 
-<h3>利用規約のご案内</h3>
-<p>このテンプレートは、<a href="http://template-party.com/">Template Party</a>にて無料配布している『老人ホーム・介護施設・デイサービス向け 無料ホームページテンプレート tp_home4』です。必ずダウンロード先のサイトの<a href="http://template-party.com/read">利用規約</a>をご一読の上でご利用下さい。</p>
-<p><strong class="color1">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</strong><br>
-わざと見えなく加工する事も禁止です。</p>
-<p><strong class="color1">■下部の著作を外したい場合は</strong><br>
-<a href="http://template-party.com/">Template-Party</a>の<a href="http://template-party.com/member">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
+        <div id="copyright">
+        <small>Copyright&copy; <a href="/">サンプルホーム</a> All Rights Reserved.</small>
+        <span class="pr"><a href="/http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+        </div>
+    </footer>
 
-<h3 style="color: red;">※当テンプレートにはお問い合わせフォーム（自動フォーム：試用版）がセットされています</h3>
-<p><a href="/contact">contact</a>と同じ３項目のお問い合わせフォームを簡単に使えるようにセットしています。</p>
-<p><strong class="color1">■自動フォームを使う場合（※編集に入る前にご確認下さい）</strong><br>
-あなたのメールアドレス設定と、簡単な編集だけで使えます。<a href="http://template-party.com/file/formgen_manual_set2" target="_blank">詳しくはこちらのマニュアルをご覧下さい。</a></p>
-<p><strong class="color1">■自動フォームを使わない場合</strong><br>
-テンプレートに梱包されている「form」「confirm」「finish」の3枚のファイルを削除して下さい。</p>
+    <p class="nav-fix-pos-pagetop"><a href="/#">↑</a></p>
 
-<h3>サンプル公開中のスライドショーの「施設の室内写真」はダウンロードファイルには梱包されていません</h3>
-<p>配布元である「PIXTA」さんの一般利用規約範囲内で利用している為、ダウンロードファイルには梱包されておりません。PSD特典にも含まれませんので同じ写真が必要な際はPIXTAさんで直接お買い求め下さい。<br>ダウンロードファイルには代替画像が入っています。そちらは文字なしの土台がbaseフォルダに入っていますのでご利用頂いても構いません。</p>
-
-<h3>テンプレートに梱包されているjavascriptファイル（jsファイル）について</h3>
-<p>当テンプレートに梱包されているjavascriptファイルは全て<a href="http://www.crytus.co.jp/">有限会社クリタス様</a>提供のものです。jsファイルは改変せずにご利用下さい。<br>
-また、当サイトのテンプレート「以外」に使いたいなど、「プログラムのみ」を使う場合は<a href="http://template-party.com/free_program/openclose_license">こちらの規約</a>をお守り下さい。</p>
-
-<h3>当テンプレートの詳しい使い方は</h3>
-<p><a href="company#about">こちらをご覧下さい。</a></p>
-
-</section>
-
-<section>
-<h2>老人ホーム・デイサービス・介護施設向けCMS販売中</h2>
-<p><a href="http://template-party.com/hanyo_home/"><img src="http://template-party.com/images/file/cms_home/img01_cm.jpg" alt=""></a></p>
-</section>
-
-</div>
-<!--/#contents-->
-
-</div>
-<!--/#container-->
-
-<footer>
-
-<div id="footermenu">
-<ul>
-<li><a href="/">ホーム</a></li>
-<li><a href="/company">会社概要</a></li>
-<li><a href="/info">施設のご案内</a></li>
-<li><a href="/service">サービスのご案内</a></li>
-<li><a href="/charge">ご利用料金</a></li>
-<li><a href="/access">アクセス</a></li>
-<li><a href="/faq">よく頂く質問</a></li>
-<li><a href="/recruit">採用情報</a></li>
-</ul>
-<ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title"><a href="#">メニューのタイトル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-</div>
-<!--/footermenu-->
-
-<div id="copyright">
-<small>Copyright&copy; <a href="/">サンプルホーム</a> All Rights Reserved.</small>
-<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-</div>
-
-</footer>
-
-<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
-
-<!--メニュー開閉ボタン-->
-<div id="menubar_hdr" class="close"></div>
-<!--メニューの開閉処理条件設定　800px以下-->
-<script>
-if (OCwindowWidth() <= 800) {
-	open_close("menubar_hdr", "menubar-s");
-}
-</script>
-
-</body>
+    <!--メニューの開閉処理条件設定　800px以下-->
+    <script>
+        if (OCwindowWidth() <= 800) {
+            open_close("menubar_hdr", "menubar-s");
+        }
+    </script>
 </html>
+
